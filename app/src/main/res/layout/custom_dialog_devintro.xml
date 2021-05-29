@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 다이어로그를 직접 커스터마이징합니다. -->
+
+    <!-- 맨 윗부분 라인입니다. -->
+    <TextView
+        android:id="@+id/hintTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="개발자 소개"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <!-- 내용입니다. -->
+
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="염동원 오주영 이다은"
+        android:textSize="16dp" />
+
+
+    <!-- 버튼입니다. -->
+    <TextView
+        android:id="@+id/hintOk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="확인"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</LinearLayout>

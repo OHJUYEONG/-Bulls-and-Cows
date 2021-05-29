@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- 메인 배경 이미지 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:background="@drawable/main_image"
+    android:orientation="vertical">
+
+    <!--남은 목숨 이미지 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <!-- 야구공 이미지  -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            />
+
+    </LinearLayout>
+
+
+    <!-- 유저 input 표시 java파일에서 인식한 user input 값으로 내용을 넣습니다 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/input1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+            android:id="@+id/input9"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <!-- 최종 결과 표시 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_height="wrap_content"
+            android:text="숫자를 입력해주세요"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <!-- User Text Input -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/user_input"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <!-- 임의 버튼, 이미지 삽입 원할경우 imageview로 변경 필요, 색 변경 필요시 backgroundTint 변경  -->
+    <Button
+        android:id="@+id/enter_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:paddingVertical="10dp"
+        android:backgroundTint="@color/black"
+        android:text="입력"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+
+
