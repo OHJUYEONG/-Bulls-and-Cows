@@ -62,10 +62,9 @@ public class MainActivity extends AppCompatActivity {
                 //[사운드]버튼 클릭
                 //MySoundPlayer.play(MySoundPlayer.BUTTON_SOUND);
                 makeDialog("개발자 소개",
-                        "< 경북대학교 IT대학 컴퓨터학부 >\n\n" +
-                                "2018111947 김도희\n" +
-                                "2018110931 오주영\n" +
-                                "2018110861 조인후");
+                                "이다은\n" +
+                                "오주영\n" +
+                                "염동원");
                 //[텍스트수정]해당 다이어로그 타이틀, 텍스트 수정필요
             }
         });

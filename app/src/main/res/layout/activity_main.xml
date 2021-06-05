@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:layout_width="wrap_content"
 
-        android:background="@drawable/main_image"
+        android:background="@drawable/main_image2"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -27,9 +27,10 @@ android:src="@drawable/logo"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:paddingVertical="10dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Button_Color"
         android:text="게임 시작"
         android:textSize="20sp"
+        android:fontFamily="@font/neodgm_code"
         android:textStyle="bold"/>
 
     <Button
@@ -38,8 +39,10 @@ android:src="@drawable/logo"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingVertical="10dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Button_Color"
         android:text="게임 설명"
+        android:fontFamily="@font/neodgm_code"
+
         android:textSize="20sp"
         android:textStyle="bold"/>
 
@@ -49,9 +52,11 @@ android:src="@drawable/logo"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingVertical="10dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Button_Color"
         android:text="개발자 소개"
         android:textSize="20sp"
+        android:fontFamily="@font/neodgm_code"
+
         android:textStyle="bold"/>
 
 </LinearLayout>

@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="300dp"
     android:layout_height="wrap_content"
+    android:background="@color/Background_Color"
     android:orientation="vertical">
 
     <!-- 다이어로그를 직접 커스터마이징합니다. -->
@@ -12,10 +13,12 @@
         android:id="@+id/hintTitle"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="@color/black"
+        android:background="@color/Popup_Background"
+        android:textColor="@color/black"
         android:gravity="center"
+        android:fontFamily="@font/neodgm_code"
+
         android:text="게임 설명"
-        android:textColor="#ffffff"
         android:textSize="16dp"
         android:textStyle="bold" />
 
@@ -28,6 +31,10 @@
         android:layout_marginTop="60dp"
         android:layout_marginBottom="60dp"
         android:padding="10dp"
+        android:fontFamily="@font/neodgm_code"
+
+        android:textColor="@color/black"
+
         android:gravity="center"
         android:text="게임 성공"
         android:textSize="16dp" />
@@ -44,23 +51,25 @@
             android:layout_width="100dp"
             android:layout_marginRight="50dp"
             android:layout_height="40dp"
-            android:background="@color/black"
             android:clickable="true"
             android:gravity="center"
+            android:fontFamily="@font/neodgm_code"
             android:text="확인"
-            android:textColor="#ffffff"
+            android:background="@color/Popup_Background"
+            android:textColor="@color/black"
             android:textSize="16dp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/success_cancel"
             android:layout_width="100dp"
+            android:fontFamily="@font/neodgm_code"
             android:layout_height="40dp"
-            android:background="@color/black"
             android:clickable="true"
             android:gravity="center"
             android:text="취소"
-            android:textColor="#ffffff"
+            android:background="@color/Popup_Background"
+            android:textColor="@color/black"
             android:textSize="16dp"
             android:textStyle="bold" />
     </LinearLayout>

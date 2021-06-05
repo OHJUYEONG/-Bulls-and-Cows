@@ -2,6 +2,7 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="300dp"
+    android:background="@color/Background_Color"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
@@ -12,10 +13,12 @@
         android:id="@+id/hintTitle"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="@color/black"
+        android:background="@color/Popup_Background"
         android:gravity="center"
         android:text="개발자 소개"
-        android:textColor="#ffffff"
+        android:textColor="@color/black"
+        android:fontFamily="@font/neodgm_code"
+
         android:textSize="16dp"
         android:textStyle="bold" />
 
@@ -27,8 +30,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="60dp"
+        android:textColor="@color/black"
         android:padding="10dp"
         android:gravity="center"
+        android:fontFamily="@font/neodgm_code"
+
         android:text="염동원 오주영 이다은"
         android:textSize="16dp" />
 
@@ -38,11 +44,13 @@
         android:id="@+id/hintOk"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="@color/black"
+        android:background="@color/Popup_Background"
         android:clickable="true"
         android:gravity="center"
+        android:fontFamily="@font/neodgm_code"
+
         android:text="확인"
-        android:textColor="#ffffff"
+        android:textColor="@color/black"
         android:textSize="16dp"
         android:textStyle="bold" />
 </LinearLayout>
