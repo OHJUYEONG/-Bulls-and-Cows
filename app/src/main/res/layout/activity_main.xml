@@ -11,8 +11,14 @@
         android:orientation="vertical">
 
     <!-- 로고 이미지 -->
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/title"
+        />
 <ImageView
-android:layout_marginTop="50dp"
 android:layout_width="240dp"
 android:layout_height="240dp"
 android:layout_gravity="center"

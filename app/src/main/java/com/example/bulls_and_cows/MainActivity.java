@@ -35,6 +35,7 @@ MediaPlayer mediaPlayer;
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mediaPlayer.stop();
                 //[사운드]버튼 클릭
                 //MySoundPlayer.play(MySoundPlayer.BUTTON_SOUND);
                 //GameActivity 불러옵니다.
@@ -53,9 +54,7 @@ MediaPlayer mediaPlayer;
                 //[사운드]버튼 클릭
                 //MySoundPlayer.play(MySoundPlayer.BUTTON_SOUND);
                 makeDialog("게임 설명",
-                        "정말이에요. 생각보다 어려울 걸요?\n" +
-                                "정해진 시간안에 퍼즐을 풀어보세요.\n\n" +
-                                "시간을 초과하면... 어떻게 될까요?\n");
+                        "숨겨진 숫자를 알아내보세요!\n");
                 //[텍스트수정]해당 다이어로그 타이틀, 텍스트 수정필요
             }
         });

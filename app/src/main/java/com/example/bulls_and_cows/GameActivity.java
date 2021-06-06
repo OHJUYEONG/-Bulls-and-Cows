@@ -7,12 +7,16 @@ import android.os.Bundle;
 
 public class GameActivity extends AppCompatActivity {
 //게임 화면 관련 class 파일입니다.
+MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         //배경음악
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.bgm_play);
+        mediaPlayer.start();
 
     }
 }
