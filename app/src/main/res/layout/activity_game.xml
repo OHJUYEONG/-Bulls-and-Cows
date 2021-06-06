@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
 
-    android:background="@color/Background_Color"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <!--남은 목숨 이미지 -->
@@ -21,10 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp">
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/heart" />
+
 
         <ImageView
             android:layout_width="50dp"
@@ -206,6 +203,7 @@
         <EditText
             android:id="@+id/user_input"
             android:layout_width="100dp"
+            android:backgroundTint="@color/Popup_Background"
             android:layout_height="50dp"
             android:layout_marginLeft="150dp"
 

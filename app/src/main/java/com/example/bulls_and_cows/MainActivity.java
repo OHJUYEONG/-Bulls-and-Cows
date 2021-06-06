@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -12,13 +13,17 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 //맨 처음 시작시 보이는 화면 관련한 class 파일입니다.
-
+MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //oncreate함수는 이 java 파일이 시작되고 바로 실행되는 함수입니다.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mediaPlayer = MediaPlayer.create(this, R.raw.bgm_main_theme);
+        //mediaPlayer.setLooping(true); //무한재생
+        mediaPlayer.start();
+
         //해당하는 activity를 불러옵니다.
 
         //main activity에 있던 버튼을 불러오기 위해 선언
